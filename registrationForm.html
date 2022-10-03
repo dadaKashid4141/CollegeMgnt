@@ -4,38 +4,45 @@
 <head>
     <title>Student Registration Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
 </head>
 
-<body>
-    <h3> Student Registration Form</h3>
-    <table id="table">
-        <form>
-            <tr>
+<body id="table">
+    <h3 class="font-effect-neon"> Student Registration Form</h3>
+    <div class="forcentr">
+    <table class="bg" >
+        <form style="height: 150px ; width: 150px;">
+            <tr >
 
                 <td> <label>first name</label></td>
-                <td> <input type="text" placeholder="Enter First Name Here"></td>
-            </tr>
+                <td> <input type="text" required placeholder="Enter First Name Here"></td>
+            </tr><br><br>
             <tr>
                 <td><label>Last Name</label></td>
-                <td><input type="test" placeholder="Enter Last Name Here"</td>
+                <td><input type="text" required placeholder="Enter Last Name Here"></td>
             </tr>
 
             <tr>
                 <td><label>E-mail</label></td>
-                <td><input type="email" placeholder="Enter E-mail Here"</td>
-            </tr>
+                <td><input type="email" required placeholder="Enter E-mail Here"></td>
+            </tr><br>
+            <br>
+            <br>
+            <br>
             <tr>
                 <td><label>Password</label></td>
-                <td><input type="password" placeholder="Enter Password here"</td>
+                <td><input type="password" placeholder="Enter Password here"></td>
             </tr>
             <tr>
                 <td> <label> Select Course </label> </td>
                 <td>
                     <select>
-                        <option> BA</option>
+                        <option> BCS</option>
                         <option> BCA</option>
                         <option> MCA</option>
-                        <option> BCS</option>
+                        <option> BA</option>
                         <option> Bsc</option>
                     </select>
                 </td>
@@ -49,13 +56,14 @@
                 <td><textarea rows="3" cols="30"></textarea> </td>
             </tr>
             <tr>
-                <td><input type="submit" class="button"> </td>
-                <td><input type="reset" class="button"></td>
+                <td><input type="submit" id="button1"> </td>
+                <td><input type="reset" id="button2"></td>
             </tr>
             
             
         </form>
     </table>
+    </div>
 </body>
 
 </html>
