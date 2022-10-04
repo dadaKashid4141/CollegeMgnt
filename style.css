@@ -161,8 +161,7 @@ label {
     text-align: center;
 }
 
-<<<<<<< HEAD
-    }
+
     body{
         background-color: #33001b;
     }
@@ -230,7 +229,7 @@ label {
         margin-right: 45px;
        
     }
-=======
+
 .container-navbar a:hover {
     background-image: linear-gradient(to right, #33001b, #ff0084);
     width: 80px;
@@ -299,22 +298,23 @@ a {
     
 }
 
-
 #container-nav {
     display: flex;
     flex-direction: column;
     height: 90vh;
-    width: 9vw;
     justify-content: space-around;
-    margin-left: 10px;
+    align-items: center;
 }
 
-    #container-nav a {
+#container-nav a {
     color: rgb(185, 252, 137);
     text-shadow: 2px 3px 2px rgb(107, 49, 49);
     font-size: 22px;
     text-decoration: none;
     border-radius: 10px;
+}
+#ForIMG{
+    background-image: url(clgback2.jpg);
 }
 
 #container-nav a:hover {
@@ -322,4 +322,5 @@ a {
     color: rgb(21, 14, 27);
 }
 
->>>>>>> d0d6833d68d847faa0ce8067d96a2fc7527b286f
+
+
