@@ -233,3 +233,31 @@ a {
     font-size:xx-large ;
     
 }
+
+
+#container-nav {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 9vw;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url(clgback2.jpg);
+      }
+
+    #container-nav a {
+    color: rgb(185, 252, 137);
+    text-shadow: 2px 3px 2px rgb(107, 49, 49);
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#container-nav a:hover {
+    background-color: rgb(233, 207, 223);
+    color: rgb(21, 14, 27);
+}
+
