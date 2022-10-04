@@ -161,6 +161,76 @@ label {
     text-align: center;
 }
 
+<<<<<<< HEAD
+    }
+    body{
+        background-color: #33001b;
+    }
+
+    /* scc for studentRegistrationForm */
+    #table{
+        background-image: url('clgback2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;;
+
+    }
+    .forcentr,h3{
+        display: flex;
+        justify-content:end;
+        
+    }
+    
+    input[type="text"],textarea,input[type="date"],select{
+        margin-bottom: 10px;
+        border-radius: 12px;
+        background: none;
+        height: 25px;
+        width: 250px;
+        border-color:aqua;
+        
+    }
+    input[type="text"]:hover{
+        background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+        
+        border-color: black;
+    }
+    #button1:hover{
+        background-image: linear-gradient( 109.6deg, rgb(131, 236, 110) 11.2%, rgb(16, 102, 27) 91.1% );
+        
+        border-color: black;
+    }
+    
+    #button2:hover{
+        background-image: linear-gradient( 109.6deg, rgb(241, 97, 241) 11.2%, rgb(177, 32, 32) 91.1% );
+        
+        border-color: black;
+    }
+    #button1,#button2{
+        width: 120px;
+        height: 35px;
+        border-radius: 15px;
+    }
+    
+        th, td {
+            width:150px;
+            text-align:center;
+            
+            padding:15px
+    }
+    label{
+        text-transform: capitalize;
+        font-family: "Sofia", sans-serif;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px #ababab;
+    }
+    .font-effect-neon{
+        font-size:35px;
+        font-family: "Sofia", sans-serif;
+        margin-right: 45px;
+       
+    }
+=======
 .container-navbar a:hover {
     background-image: linear-gradient(to right, #33001b, #ff0084);
     width: 80px;
@@ -252,3 +322,4 @@ a {
     color: rgb(21, 14, 27);
 }
 
+>>>>>>> d0d6833d68d847faa0ce8067d96a2fc7527b286f
