@@ -1,36 +1,42 @@
-
-*{
+* {
     margin: 0;
 }
-.dash1{
+
+.dash1 {
     background-image: url('clgback2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;;
+    background-size: 100% 100%;
+    ;
 
 }
-.box{
-    position: relative;left: 1000px; top: 100px;
+
+.box {
+    position: relative;
+    left: 1000px;
+    top: 100px;
     text-align: center;
     height: 250px;
     width: 300px;
-   
-   
+
+
 }
 
-h2,h1{
-    
+h2,
+h1 {
+
     background-image: linear-gradient(to right, #00b09b, #96c93d);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.submit{
+
+.submit {
 
     color: black;
     background-image: linear-gradient(to right, #00b09b, #96c93d);
 
-    text-align: center ;
+    text-align: center;
     width: 70px;
     height: 30px;
     border-color: aqua;
@@ -38,108 +44,124 @@ h2,h1{
     margin-bottom: 35px;
 }
 
-input[type="email"]{
+input[type="email"] {
     margin-bottom: 10px;
     border-radius: 12px;
     background: none;
     height: 25px;
     width: 250px;
-    border-color:aqua;
+    border-color: aqua;
 }
-
-input[type="password"]{
+input[type="test"]{
     margin-bottom: 10px;
     border-radius: 12px;
     background: none;
     height: 25px;
-    width: 250px; 
-     border-color:aqua;
+    width: 250px;
+    border-color: aqua;
+}
+input[type="password"] {
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: none;
+    height: 25px;
+    width: 250px;
+    border-color: aqua;
 
-   
+
+}
+input[type="test"]:hover{
+    background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+
 }
 
-input[type="email"]:hover{
-    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
-    
+input[type="email"]:hover {
+    background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+
     border-color: black;
 }
 
-input[type="password"]:hover{
-    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
-    
+input[type="password"]:hover {
+    background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+
     border-color: black;
 }
- .iname{
+
+.iname {
     color: blue;
- }
-.std{
-    
+}
+
+.std {
+
     text-align: center;
     height: 120px;
     width: 120px;
 }
+
 /* now register page------------------------------------------------------------------------------ */
-input[type="text"]{
+input[type="text"] {
     margin-bottom: 10px;
     border-radius: 12px;
     background: none;
     height: 25px;
     width: 250px;
-    border-color:aqua;
+    border-color: aqua;
 }
-input[type="text"]:hover{
-    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
-    
+
+input[type="text"]:hover {
+    background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+
     border-color: black;
 }
-.box1{
-    position: relative;left: 1000px; top: 10px;
+#text_area{
+    border-radius: 1ch;
+}
+.drop_reg{
+    width: 5pc;
+}
+
+.box1 {
+    position: relative;
+    left: 1000px;
+    top: 10px;
     text-align: center;
     height: 250px;
     width: 300px;
 }
-label{
+
+label {
     color: antiquewhite;
 }
+
 /* dashboard ************************************************************************** */
-    .container-navbar{
-        display: flex;
-        flex-direction: column;
-       background-color: rgb(49, 45, 45);
-        width: 90px;
-        height: 680px;
+.container-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 45, 45);
+    width: 90px;
+    height: 680px;
 
-    
 
-    }
-    /* .container-navbar{
+
+}
+
+/* .container-navbar{
         background-color: #96c93d;
         width: 80px;
         height: 100%;
     } */
-    .container-navbar a{
-       
-        float: left;
-        padding: 12px;
-        color: rgb(250, 248, 248);
-        text-decoration: wavy;
-        font-size: 17px;
-        width: 10%;
-        text-align: center;
-    }
-    .container-navbar a:hover{
-        background-image: linear-gradient(to right, #33001b, #ff0084);
-        width: 80px;
+.container-navbar a {
 
-    }
-    .container-body{
-        background-color:black;
-    }
-    
-    .container-frame{
-        margin-top: 0;
-        margin-left: 150px;
+    float: left;
+    padding: 12px;
+    color: rgb(250, 248, 248);
+    text-decoration: wavy;
+    font-size: 17px;
+    width: 10%;
+    text-align: center;
+}
 
+<<<<<<< HEAD
     }
     body{
         background-color: #33001b;
@@ -208,3 +230,106 @@ label{
         margin-right: 45px;
        
     }
+=======
+.container-navbar a:hover {
+    background-image: linear-gradient(to right, #33001b, #ff0084);
+    width: 80px;
+
+}
+
+.container-body {
+    background-color: black;
+}
+
+.container-frame {
+    margin-top: 0;
+    margin-left: 150px;
+
+}
+
+body {
+    background-color: #f7e5ee;
+}
+
+table,
+tr,
+th,
+td {
+    border: 2px solid rgb(233, 216, 216);
+    width: 600px;
+    height: 50px px;
+    border-collapse: collapse;
+    padding: 20px;
+    
+
+
+}
+
+table {
+    margin-left: 550px;
+    color: rgb(253, 252, 252);
+}
+
+body {
+    background-image: url(clgback2.jpg);
+    
+<<<<<<< Updated upstream
+=======
+    
+    margin-inline-start: 200px;
+    margin-left: 550px;
+>>>>>>> Stashed changes
+
+}
+
+th:hover {
+    color: rgb(19, 18, 17);
+    background-color: #baecec;
+}
+
+th {
+    font-size: large;
+    color: gold;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#course_bod {
+    color:whitesmoke;
+    font-size: 40px;
+    border-radius: 5px;
+}
+.stud_desig{
+    font-size:xx-large ;
+    
+}
+
+
+#container-nav {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 9vw;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+    #container-nav a {
+    color: rgb(185, 252, 137);
+    text-shadow: 2px 3px 2px rgb(107, 49, 49);
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#container-nav a:hover {
+    background-color: rgb(233, 207, 223);
+    color: rgb(21, 14, 27);
+}
+
+>>>>>>> d0d6833d68d847faa0ce8067d96a2fc7527b286f
