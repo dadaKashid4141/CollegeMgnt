@@ -179,14 +179,14 @@ td {
 }
 
 table {
-   
+    margin-inline-start: 200px;
+    margin-left: 550px;
     color: rgb(253, 252, 252);
 }
 
 body {
     background-image: url(clgback2.jpg);
-    margin-inline-start: 200px;
-    margin-left: 550px;
+    
 
 }
 
@@ -210,6 +210,5 @@ a {
 #course_bod {
     color:whitesmoke;
     font-size: 40px;
-    
     border-radius: 5px;
 }
