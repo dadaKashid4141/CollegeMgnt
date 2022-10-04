@@ -1,78 +1,52 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Student Registration Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registraion</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dash1">
+    <div class="box1">   
+        <form action="index.html"  method="get" id="nameform">
+    <h2>Student Registraion Form</h2>
+    <br>
+    <label>First Name</label>
+    <input type="text" placeholder="Enter first name here">
+    <br><br>
+
+    <label>last Name</label>
+    <input type="text" placeholder="Enter last name here">
+    <br><br>
+
+    <label>Email</label>
+    <input type="text" placeholder="Enter email here">
+    <br><br>
+
+    <label>Password</label>
+    <input type="password" placeholder="Enter password here">
+    <br><br>
+
+    <label>Course</label>
+    <input type="text" placeholder="Enter your course">
+    <br><br>
+
     
 
-</head>
+    <label>Date of Birth</label>
+    <input type="text" placeholder="dd/mm/yy">
+    <br><br>
+ 
+    
+    <label>permenant address </label>
+    <input type="text" placeholder="Enter your address">
+    <button type="submit" form="nameform" value="Submit" class="submit">Submit</button> 
 
-<body id="table">
-    <h3 class="font-effect-neon"> Student Registration Form</h3>
-    <div class="forcentr">
-        <table class="bg">
-            <form style="height: 150px ; width: 150px;">
+   </form> 
+</div>
 
-                <tr>
-
-                    <td> <label>first name</label></td>
-                    <td> <input type="text" required placeholder="Enter First Name Here"></td>
-                </tr><br><br>
-                <tr>
-                    <td><label>Last Name</label></td>
-                    <td><input type="text" required placeholder="Enter Last Name Here"></td>
-                </tr>
-
-                <tr>
-                    <td><label>E-mail</label></td>
-                    <td><input type="email" required placeholder="Enter E-mail Here"></td>
-                </tr><br>
-                <br>
-                <br>
-                <br>
-                <tr>
-                    <td><label>Password</label></td>
-                    <td><input type="password" placeholder="Enter Password here"></td>
-                </tr>
-                <tr>
-                    <td> <label> Select Course </label> </td>
-                    <td>
-
-
-
-
-
-
-                        
-
-                        <select class="drop_reg">
-                            <option> BA</option>
-                            <option> BCA</option>
-                            <option> MCA</option>
-                            <option> BA</option>
-                            <option> Bsc</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label>Date Of Birth</label></td>
-                    <td><input type="date"></td>
-                </tr>
-                <tr>
-                    <td><label>Enter Your Address</label></td>
-                    <td><textarea rows="3" cols="30" id="text_area"></textarea> </td>
-                </tr>
-                <tr>
-                    <td><input type="submit" id="button1"> </td>
-                    <td><input type="reset" id="button2"></td>
-                </tr>
-
-
-            </form>
-        </table>
-    </div>
+   
 </body>
-
 </html>
