@@ -190,13 +190,12 @@ td {
     height: 50px px;
     border-collapse: collapse;
     padding: 20px;
-    margin-right: 300px;
+    
 
 
 }
 
 table {
-    margin-inline-start: 200px;
     margin-left: 550px;
     color: rgb(253, 252, 252);
 }
@@ -249,10 +248,6 @@ a {
     justify-content: space-around;
     margin-left: 10px;
 }
-
-body {
-    background-image: url(clgback2.jpg);
-      }
 
     #container-nav a {
     color: rgb(185, 252, 137);
