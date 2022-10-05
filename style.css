@@ -272,6 +272,7 @@ td{
     color: rgb(244, 241, 247);
 
 }
+/* Library************************************************************************** */
 
 #lib_sum {
     padding: 50px;
@@ -280,14 +281,18 @@ td{
 }
 
 #head_libr {
-    font-size: xx-large;
-    color: rgb(214, 71, 71);
+    
+    color: rgb(137, 180, 216);
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 3px 4px rgb(36, 41, 32);
 
 }
 .hea_libr {
-    font-size: xx-large;
+    font-size: 40px;
     text-align: center;
-    color: #db1d7c;
+   color: rgb(54, 175, 17);
+   
 }
 
 .sum_libr {
