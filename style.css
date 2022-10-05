@@ -3,11 +3,12 @@
 }
 
 .dash1 {
-    background-image: url('clgback2.jpg');
+    background-image: url('student.jpg');
+   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    ;
+    
 
 }
 
@@ -21,6 +22,7 @@
 
 
 }
+
 
 h2,
 h1 {
@@ -183,7 +185,7 @@ label {
 }
 
 body {
-    background-color: #f7e5ee;
+    background-color: #c22473;
 }
 
 table,
@@ -222,7 +224,9 @@ a {
     color: white;
     text-decoration: none;
 }
-
+td{
+    color: black;
+}
 #course_bod {
     color: whitesmoke;
     font-size: 40px;
