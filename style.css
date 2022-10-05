@@ -226,18 +226,24 @@ td{
     color:whitesmoke;
     font-size: 40px;
     border-radius: 5px;
+    
+}
+.Imgbody{
+    background-image: url(clgback2.jpg);
+    
 }
 .stud_desig{
     font-size:xx-large ;
     
 }
-
+/* NavBar************************************************************************** */
 #container-nav {
     display: flex;
     flex-direction: column;
     height: 90vh;
+    width: 130px;
     justify-content: space-around;
-    align-items: center;
+    
 }
 
 #container-nav a {
@@ -246,12 +252,13 @@ td{
     font-size: 22px;
     text-decoration: none;
     border-radius: 10px;
+    margin-left: 10px;
 }
 #ForIMG{
     background-image: url(clgback2.jpg);
 }
 
 #container-nav a:hover {
-    background-color: rgb(233, 207, 223);
+    background-color: rgb(245, 199, 227);
     color: rgb(21, 14, 27);
 }
