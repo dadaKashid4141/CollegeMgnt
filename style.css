@@ -3,7 +3,7 @@
 }
 
 .dash1 {
-    background-image: url('student.jpg');
+    background-image: url('blur.png');
    
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,7 +14,7 @@
 
 .box {
     position: relative;
-    left: 1000px;
+    left: 500px;
     top: 100px;
     text-align: center;
     height: 250px;
@@ -27,8 +27,8 @@
 h2,
 h1 {
 
-    background-image: linear-gradient(to right, #00b09b, #96c93d);
-
+  
+     background-color: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -52,16 +52,16 @@ input[type="email"] {
     background: none;
     height: 25px;
     width: 250px;
-    border-color: aqua;
+    border-color: black;
 }
 
-input[type="test"] {
+input[type="text"] {
     margin-bottom: 10px;
     border-radius: 12px;
     background: none;
     height: 25px;
     width: 250px;
-    border-color: aqua;
+    border-color:black;
 }
 
 input[type="password"] {
@@ -70,12 +70,12 @@ input[type="password"] {
     background: none;
     height: 25px;
     width: 250px;
-    border-color: aqua;
+    border-color: black;
 
 
 }
 
-input[type="test"]:hover {
+input[type="text"]:hover {
     background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
 
 }
@@ -110,7 +110,7 @@ input[type="text"] {
     background: none;
     height: 25px;
     width: 250px;
-    border-color: aqua;
+    border-color: black;
 }
 
 input[type="text"]:hover {
@@ -129,7 +129,7 @@ input[type="text"]:hover {
 
 .box1 {
     position: relative;
-    left: 1000px;
+    left: 500px;
     top: 10px;
     text-align: center;
     height: 250px;
@@ -137,51 +137,7 @@ input[type="text"]:hover {
 }
 
 label {
-    color: antiquewhite;
-}
-
-/* dashboard ************************************************************************** */
-.container-navbar {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(49, 45, 45);
-    width: 90px;
-    height: 680px;
-
-
-
-}
-
-/* .container-navbar{
-        background-color: #96c93d;
-        width: 80px;
-        height: 100%;
-    } */
-.container-navbar a {
-
-    float: left;
-    padding: 12px;
-    color: rgb(250, 248, 248);
-    text-decoration: wavy;
-    font-size: 17px;
-    width: 10%;
-    text-align: center;
-}
-
-.container-navbar a:hover {
-    background-image: linear-gradient(to right, #33001b, #ff0084);
-    width: 80px;
-
-}
-
-.container-body {
-    background-color: black;
-}
-
-.container-frame {
-    margin-top: 0;
-    margin-left: 150px;
-
+    color: black;
 }
 
 
@@ -264,13 +220,25 @@ td{
 }
 
 #ForIMG {
-    background-image: url(clgback2.jpg);
+    background-image: linear-gradient(to right, #33001b, #ff0084);
+    
 }
 
 #container-nav a:hover {
     background-color: rgb(245, 199, 227);
     color: rgb(244, 241, 247);
 
+}
+
+iframe{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;;
+
+   margin-left: 130px;
+    border: 5px solid black;
 }
 /* Library************************************************************************** */
 
