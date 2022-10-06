@@ -276,6 +276,9 @@ td{
 }
 /* Library************************************************************************** */
 
+.labBody{
+    background-image: url(student.jpg);
+}
 #lib_sum {
     padding: 50px;
     color: black;
@@ -290,10 +293,11 @@ td{
     text-shadow: 2px 3px 4px rgb(36, 41, 32);
 
 }
-.hea_libr {
+.hea_libr{
     font-size: 40px;
     text-align: center;
-   color: rgb(54, 175, 17);
+    text-shadow: 1px 1px 1px red;
+   
    
 }
 
