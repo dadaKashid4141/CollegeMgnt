@@ -223,12 +223,14 @@ a {
     text-decoration: none;
 }
 td{
-    color: black;
+    color: rgb(235, 144, 144);
 }
 #course_bod {
-    color: whitesmoke;
+    color: rgb(203, 219, 201);
     font-size: 40px;
     border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 }
 
