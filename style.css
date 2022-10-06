@@ -184,9 +184,7 @@ label {
 
 }
 
-body {
-    background-color: #c22473;
-}
+
 
 table,
 tr,
@@ -299,4 +297,25 @@ td{
     font-size: x-large;
     color: brown;
     display: flex;
+}
+/* ***********************************************home page ******************************************************************/
+.container .content{
+    position: relative;
+    margin-top: 10vh;
+    min-height: 90vh;
+     
+}
+.container .content .cards{
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.container .content .cards .card{
+    width: 250px;
+    height: 150px;
+    background: wheat;
+    margin: 20px 10px;
 }
