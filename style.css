@@ -244,11 +244,12 @@ iframe{
 
 .labBody{
     background-image: url(student.jpg);
+    backdrop-filter: blur(20px);
+    
 }
 #lib_sum {
     padding: 50px;
     color: black;
-    background-image: radial-gradient(circle at 30% 94%, rgba(245, 245, 245, 0.06) 0%, rgba(245, 245, 245, 0.06) 50%, rgba(21, 21, 21, 0.06) 50%, rgba(21, 21, 21, 0.06) 100%), radial-gradient(circle at 59% 19%, rgba(248, 248, 248, 0.06) 0%, rgba(248, 248, 248, 0.06) 50%, rgba(87, 87, 87, 0.06) 50%, rgba(87, 87, 87, 0.06) 100%), radial-gradient(circle at 7% 11%, rgba(148, 148, 148, 0.06) 0%, rgba(148, 148, 148, 0.06) 50%, rgba(254, 254, 254, 0.06) 50%, rgba(254, 254, 254, 0.06) 100%), linear-gradient(90deg, rgb(189, 189, 189), rgb(205, 205, 205));
 }
 
 #head_libr {
@@ -268,9 +269,11 @@ iframe{
 }
 
 .sum_libr {
-    font-size: x-large;
-    color: brown;
+    font-size: xx-large;
+    color: rgb(46, 25, 25);
     display: flex;
+    text-shadow:2px 1px 2px #33001b;
+    
 }
 /* ***********************************************home page ******************************************************************/
 
