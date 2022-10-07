@@ -3,28 +3,60 @@
 
 <head>
     <title>Nav Bar</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <style>
+      
+
+      #nav_bar {
+        
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: initial;
+            text-align: center;
+            font-family: 'Sofia', cursive;
+            color: rgb(211, 213, 238);
+            text-shadow: 2px 3px 2px rgb(190, 128, 128);
+            background: rgb(167, 134, 134);
+
+        }
+          #nav_bar li {
+            display: inline;
+            margin-right: 70px;
+        }
+        body{
+            background-image: url(student.jpg);
+        }
+    </style>
+
 </head>
 
-<body id="ForIMG">
-    <nav id="container-nav">
+<body>
+    <nav id="nav_bar">
+        <ul>
+
+            <li> <a href="home.html" target="My_Frame"> Home </a> </li>
+            <li> <a href="Course.html" target="My_Frame"> Courses </a> </li>
+            <li> <a href="library.html" target="My_Frame"> Library </a> </li>
+            <li> <a href="Faculty.html" target="My_Frame"> Faculty </a> </li>
+            <li> <a href="login.html" target="My_Frame"> Login </a> </li>
+            <li> <a href="aboutPage.html" target="My_Frame"> About Us </a> </li>
+            
 
 
-        <a href="home.html" target="myframe"> Home</a>
-        <a href="Faculty.html" target="myframe">Faculty</a>
-        <a href="Course.html" target="myframe"> Courses </a>
-        <a href="library.html" target="myframe">Library</a>
-       
-        <a href="aboutPage.html" target="myframe"> About us</a>
-        <a href="notice,html" target="myframe"> Notice</a>
-        
-       
+        </ul>
+
     </nav>
-    <iframe name="myframe" src="home.html" frameborder="0" height="650px" width="1240px"></iframe>
+    <br>
 
-    
+    <iframe class="iframe" name="My_Frame" height="700px" width="1325px">
+
+    </iframe>
+
+
 
 </body>
+
 
 </html>
