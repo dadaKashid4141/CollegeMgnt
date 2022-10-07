@@ -1,95 +1,102 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <head>
     <title> College Faculty </title>
     <style>
-        .FacultyBody {
+        body {
             background-image: linear-gradient(to right, #33001b, #ff0084);
-            background-repeat: no-repeat;
-           
-
         }
 
-        .facultyHead {
-            font-size: 40px;
-        }
-
-        .transbox {
-
-            margin: 20px;
-            background-color: #ffffff;
-            border: 1px solid rgb(15, 1, 1);
-            text-shadow: 2px 2px 2px crimson;
-            opacity: 0.5;
-
-        }
-
-        table,
-        tr,
-        th {
-            
-            border: 2px solid black;
-            border-collapse: collapse;
-            padding: 180px 30px 180px 30px;
-            font-size: 30px;
-
-        }
-
-        .BoxTable {
-            background-color: #ffffff;
-            text-shadow: 2px 2px 2px rgb(39, 126, 160);
-            opacity: 0.6;
-        }
-        .hname{
-            color: black;
-            font-size: 82px;
-            margin-left: 500px;
-            margin-bottom: 10px;
-        }
-        b{
+        .hname b {
             color: rgb(82, 201, 82);
         }
-        strong{
+
+        .hname strong {
             color: rgb(142, 230, 230);
         }
         a{
-            font-size: 25px;
-            color:gold;
-            text-decoration: none;
-            position: relative;left: 1200px
+            color: rgb(84, 179, 171);
+            position: relative;left: 25px;
         }
         a:hover{
-            color: black;
-            padding-top: 25px;
-            border-radius: 25px;
+            color:gold;
         }
     </style>
 </head>
 
-<body class="FacultyBody">
-</div>
-<div id="logo">
-  <img src="codemindlogo.png">
-  <h1 class="hname"><b>Code</b>Mind <strong>Technical Campus</strong> </h1>
-  <a href="login.html">Sign Up</a>
-</div>
+<body>
+    </div>
+    <div id="logo">
+        <img src="codemindlogo.png">
 
-   
- 
+    </div>
+
+    <h1 class="hname"><b>Code</b>Mind <strong>Technical Campus</strong> </h1>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <button class="submit" onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+    <a href="registrationForm.html"><i class="fa fa-user-plus fa-1x" aria-hidden="true" ></i> New User?</a>
+
+    <!-- The Modal -->
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="navBar.html">
+            <div class="imgcontainer">
+                <img src="developer.png" alt="Avatar" class="avatar">
+            </div>
+
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+                <button class="submit" type="submit">Login</button>
+                
+       
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+                <button class="submit" type="submit" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
     <table class="BoxTable">
-        <tr>
-            <th><i>CODEMIND Technical Campus was established in 2021 with the intention to provide the right guidance to students 
-                who are career minded and ambitious.</i> </th>
-            <th> <i> We are happy to share that since 2021,more than 5000 students achieved their cherished goal of getting job.
-                When students
-                come to CODEMIND, they get the assurance of expertise, commitment and dedication.</i>
-              </th>
-            <th> <i> Vision:- To be the leading provider of top class education leading to path breaking careers</i></th>
-            <th> <i> Mission:-
 
-                To enable students and professionals at various levels to realize their potential and reach their goals.</i></th>
-        </tr>
 
     </table>
     <footer></footer>

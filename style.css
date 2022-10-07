@@ -273,23 +273,136 @@ iframe{
     display: flex;
 }
 /* ***********************************************home page ******************************************************************/
-.container .content{
-    position: relative;
-    margin-top: 10vh;
-    min-height: 90vh;
-     
-}
-.container .content .cards{
-    padding: 20px 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
+.homeBody {
+    background-image: linear-gradient(to right, #33001b, #ff0084);
+    background-repeat: no-repeat;
+   
 
 }
-.container .content .cards .card{
-    width: 250px;
-    height: 150px;
-    background: wheat;
-    margin: 20px 10px;
+
+
+
+.transbox {
+
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid rgb(15, 1, 1);
+    text-shadow: 2px 2px 2px crimson;
+    opacity: 0.5;
+
 }
+
+table,
+tr,
+th {
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 180px 30px 180px 30px;
+    font-size: 30px;
+
+}
+
+.BoxTable tbody{
+    background-color: #ffffff;
+    position: relative;left: 25px;
+    text-shadow: 2px 2px 2px rgb(39, 126, 160);
+    opacity: 0.6;
+}
+.hname{
+    color: rgb(226, 34, 34);
+   font-size: 82px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+b{
+    color: rgb(82, 201, 82);
+}
+strong{
+    color: rgb(142, 230, 230);
+}
+a{
+    font-size: 25px;
+    color:gold;
+    text-decoration: none;
+    position: relative;left: 1200px
+}
+a:hover{
+    color: black;
+    padding-top: 25px;
+    border-radius: 25px;
+}
+
+/* pop up ****************************************************************************************************************** */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  .imgcontainer{
+    position: relative;left: 450px;
+  }
+  .container{
+    position: relative;left:350px;
+  }
+  .homeBody {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #33001b, #ff0084);
+    background-repeat: no-repeat;
+   
+
+}
+
