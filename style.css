@@ -206,6 +206,9 @@ td{
 #container-nav {
     display: flex;
     flex-direction: column;
+
+    
+    position: relative;right: 1200px;
     height: 90vh;
     width: 130px;
     justify-content: space-around;
@@ -214,6 +217,8 @@ td{
 
 #container-nav a {
     color: rgb(185, 252, 137);
+    
+
     text-shadow: 2px 3px 2px rgb(107, 49, 49);
     font-size: 22px;
     text-decoration: none;
