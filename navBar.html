@@ -6,8 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+   
     <style>
-      
+      *{
+        margin: 0;
+      }
 
       #nav_bar {
         
@@ -18,15 +21,36 @@
             font-family: 'Sofia', cursive;
             color: rgb(211, 213, 238);
             text-shadow: 2px 3px 2px rgb(190, 128, 128);
-            background: rgb(167, 134, 134);
+            background-image: linear-gradient(to right, #2c3e50, #4ca1af);
 
         }
           #nav_bar li {
             display: inline;
             margin-right: 70px;
+            
         }
         body{
-            background-image: url(student.jpg);
+            background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+        }
+        #logo1 img{
+            width: 200px;
+            height: 150px;
+            
+            position: relative;left: 5px; top: 10px;
+
+        }
+        .hname{
+            color: black;
+            font-size: 45px;
+            margin-left: 500px;
+            margin-bottom: 10px;
+            position: relative;top: 200;left: 5px;
+        }
+        b{
+            color: rgb(82, 201, 82);
+        }
+        strong{
+            color: rgb(142, 230, 230);
         }
     </style>
 
@@ -34,13 +58,21 @@
 
 <body>
     <nav id="nav_bar">
+        <div id="logo1">
+            <img src="codemindlogo.png">
+        
         <ul>
+          
+    
 
             <li> <a href="home.html" target="My_Frame"> Home </a> </li>
             <li> <a href="Course.html" target="My_Frame"> Courses </a> </li>
             <li> <a href="library.html" target="My_Frame"> Library </a> </li>
-            <li> <a href="Faculty.html" target="My_Frame"> Faculty </a> </li>
-            <li> <a href="login.html" target="My_Frame"> Login </a> </li>
+            <li> <a href="Faculty.html" target="My_Frame"> Head of Dsept </a> </li>
+           <li>
+            <a href="notice.html" target="My_Frame">Notice</a>
+           </li>
+           
             <li> <a href="aboutPage.html" target="My_Frame"> About Us </a> </li>
             
 
@@ -50,7 +82,7 @@
     </nav>
     <br>
 
-    <iframe class="iframe" name="My_Frame" height="700px" width="1325px">
+    <iframe src=home.html type="iframe" name="My_Frame" height="700px" width="1325px">
 
     </iframe>
 

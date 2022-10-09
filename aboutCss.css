@@ -1,18 +1,7 @@
-/*
 
 
-#middle{
-    background-image: url(clgback2.jpg);
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#para{
-    position:absolute;
-    left:20vh;
-    align-items: center;
-} */
+
+
 #video {
     position: relative;
     width: 100vw;
@@ -60,9 +49,11 @@
 }
 
 .aboutDetails {
+    position: relative;left: 200px;
     width: 800px;
     height: 400px;
     display: flex;
+    color: #000;
 }
 
 .box1 {

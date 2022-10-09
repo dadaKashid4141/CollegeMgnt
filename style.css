@@ -250,8 +250,7 @@ iframe{
 /* Library************************************************************************** */
 
 .labBody{
-    background-image: url(student.jpg);
-    backdrop-filter: blur(20px);
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);;
     
 }
 #lib_sum {
